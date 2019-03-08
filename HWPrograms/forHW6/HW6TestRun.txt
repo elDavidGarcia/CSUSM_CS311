@@ -1,0 +1,137 @@
+Script started on Mon 21 Nov 2016 07:13:40 PM PST
+]0;garci390@empress:~/HWPrograms/forHW6[garci390@empress forHW6]$ g++ dgraph.cpp slist.cpp llist.cpp hw6Client.cpp
+]0;garci390@empress:~/HWPrograms/forHW6[garci390@empress forHW6]$ ./a.out
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+...in the llist Conctructor
+________________________________________________________
+
+Vertex Name    Out Degree     Adjacent Ones
+A              2              [ B F ]
+
+B              2              [ C G ]
+
+C              1              [ H ]
+
+D              0              
+
+E              0              
+
+F              2              [ I E ]
+
+G              0              
+
+H              2              [ G I ]
+
+I              3              [ A G E ]
+
+________________________________________________________
+
+Enter a vertex to find out its degree (Enter 0 to stop)
+A
+Degree: 2
+Enter a vertex to find out its degree (Enter 0 to stop)
+a
+Degree: 2
+Enter a vertex to find out its degree (Enter 0 to stop)
+E
+Degree: 0
+Enter a vertex to find out its degree (Enter 0 to stop)
+I
+Degree: 3
+Enter a vertex to find out its degree (Enter 0 to stop)
+J
+Invalid Vertex
+Enter a vertex to find out its degree (Enter 0 to stop)
+2
+Invalid Vertex
+Enter a vertex to find out its degree (Enter 0 to stop)
+0
+________________________________________________________
+
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+A
+Adjacent one(s): 
+...in the llist Conctructor
+...in the llist Destructor
+[ B F ]
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+a
+Adjacent one(s): 
+...in the llist Conctructor
+...in the llist Destructor
+[ B F ]
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+F
+Adjacent one(s): 
+...in the llist Conctructor
+...in the llist Destructor
+[ I E ]
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+J
+Adjacent one(s): 
+Invalid Vertex
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+I
+Adjacent one(s): 
+...in the llist Conctructor
+...in the llist Destructor
+[ A G E ]
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+6
+Adjacent one(s): 
+Invalid Vertex
+
+Enter a vertex to see vertex adjacency (Enter 0 to stop)
+0
+________________________________________________________
+
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+...in the llist Destructor
+]0;garci390@empress:~/HWPrograms/forHW6[garci390@empress forHW6]$ exit
+exit
+
+Script done on Mon 21 Nov 2016 07:15:01 PM PST

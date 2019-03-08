@@ -1,0 +1,38 @@
+Script started on Fri 16 Sep 2016 12:21:47 AM PDT
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ stack.h
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ client1.cpp stack.cpp
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ [K[garci390@empress forHW1]$ [K[garci390@empress forHW1]$ ./.[Ka.out
+Type a postfix expression: 34+
+Result: 7
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 345+*
+Result: 27
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 722+-
+Result: 3
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 34+56++
+Result: 18
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 12+34*45+-+
+Result: 6
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ 123[K[K[K./a.out
+Type a postfix expression: 1234567891234
+Error: Expression is too long
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: +
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 3+
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 3#
+Error: Invalid item entered
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 2345+
+Result: 9
+Error: Incomplete expression was found
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ exit
+exit
+
+Script done on Fri 16 Sep 2016 12:24:35 AM PDT

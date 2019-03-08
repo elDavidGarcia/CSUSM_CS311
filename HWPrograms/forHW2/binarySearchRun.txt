@@ -1,0 +1,28 @@
+Script started on Sat 24 Sep 2016 05:29:12 PM PDT
+
+[garci390@empress forHW2]$ g++ binsearch.cpp
+[garci390@empress forHW2]$ ./a.out
+Enter element: 1
+Element is in position: 1
+[garci390@empress forHW2]$ ./a.out
+Enter element: 19
+Element is in position: 10
+[garci390@empress forHW2]$ ./a.out
+Enter element: 5
+Element is in position: 3
+[garci390@empress forHW2]$ ./a.out
+Enter element: 17
+Element is in position: 9
+[garci390@empress forHW2]$ ./a.out
+Enter element: 21
+Element was not found in the list!
+[garci390@empress forHW2]$ ./a.out
+Enter element: 0
+Element was not found in the list!
+[garci390@empress forHW2]$ ./a.out
+Enter element: 6
+Element was not found in the list!
+[garci390@empress forHW2]$ exit
+exit
+
+Script done on Sat 24 Sep 2016 05:30:13 PM PDT

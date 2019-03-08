@@ -1,0 +1,152 @@
+Script started on Fri 14 Oct 2016 01:47:52 AM PDT
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ g++ HW3P1client.cpp llist.cpp
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>1
+CASE 1:------------------- 
+
+1
+List is Empty
+
+2
+[ empty ]
+
+3
+
+4
+[ 1 2 3 4 ]
+
+5
+Removed: 1
+Removed: 2
+
+6
+[ 3 4 ]
+
+7
+List is not Empty
+
+8
+Removed: 4
+Removed: 3
+
+9
+List is Empty
+...called the llist Destructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>2
+Case 2: -----------------------
+
+1
+
+2
+
+3
+Removed: 4
+
+4
+
+5
+[ 5 6 8 9 ]
+
+6
+Updated List: [ 4 5 6 8 9 ]
+
+7
+Updated List: [ 4 5 6 7 8 9 ]
+
+8
+Updated List: [ 4 5 6 7 8 9 10 ]
+
+9
+Error: Out in Range!
+
+10
+Error: Out in Range!
+
+11
+[ 4 5 6 7 8 9 10 ]
+
+12
+Removed: 4
+Updated List: [ 5 6 7 8 9 10 ]
+
+13
+Removed: 10
+Updated List: [ 5 6 7 8 9 ]
+
+14
+Removed: 7
+Updated List: [ 5 6 8 9 ]
+
+15
+Error: Out of range
+
+16
+Error: Out of Range
+
+17
+[ 5 6 8 9 ]
+
+18
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+
+19
+[ empty ]
+...called the llist Destructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>3
+Case 3:-------------------- 
+1
+Error: Out of Range!
+2
+Error: No elements in the list
+...called the llist Destructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>4
+Case 4:------------------------ 
+1
+Error: Out of Range
+2
+Error: No elements in the list
+...called the llist Destructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>0
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ exit
+exit
+
+Script done on Fri 14 Oct 2016 01:48:05 AM PDT

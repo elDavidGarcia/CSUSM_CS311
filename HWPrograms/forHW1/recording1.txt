@@ -1,0 +1,76 @@
+Script started on Fri 16 Sep 2016 12:03:57 AM PDT
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ stack.h
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ stack.cpp
+/usr/lib/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ client1.cpp stack.cpp
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 34+
+Result: 7
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 345+*
+Result: 27
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ 7[K./a.out
+Type a postfix expression: 722+-
+Result: 3
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 34+56++
+Result: 18
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 12+34*45+-+
+Result: 6
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 1234567891234
+Error: Expression is too long
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: +
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 3+
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 3#
+Error: Invalid item entered
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+Type a postfix expression: 2345+
+Result: 9
+Error: incomplete expression was found
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ stacktest.cpp stack.cpp
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ queue.h
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ queue.h[Kcpp
+/usr/lib/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ queue.cpp[Cqueue.cppuqueue.cppequeue.cppequeue.cpp[1Pqueue.cppuqueue.cppequeue.cpptqueue.cppequeue.cppsqueue.cpptqueue.cpp.queue.cppcqueue.cpppqueue.cpppqueue.cpp queue.cpp
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ g++ queue.cpp client2.cpp
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ ./a.out
+ [ A B C ]
+A
+ [ B C AA AB AC ]
+B
+ [ C AA AB AC BA BB BC ]
+C
+ [ AA AB AC BA BB BC CA CB CC ]
+AA
+ [ AB AC BA BB BC CA CB CC AAA AAB AAC ]
+AB
+ [ AC BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ]
+AC
+ [ BA BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC ]
+BA
+ [ BB BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC ]
+BB
+ [ BC CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC ]
+BC
+ [ CA CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC ]
+CA
+ [ CB CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC ]
+CB
+ [ CC AAA AAB AAC ABA ABB ABC ACA ACB ACC BAA BAB BAC BBA BBB BBC BCA BCB BCC CAA CAB CAC CBA CBB CBC ]
+CC
+Cannot add anymore 
+]0;garci390@empress:~/HWPrograms/forHW1[garci390@empress forHW1]$ exit
+exit
+
+Script done on Fri 16 Sep 2016 12:09:47 AM PDT

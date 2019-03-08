@@ -1,0 +1,50 @@
+Script started on Sun 23 Oct 2016 12:34:01 AM PDT
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ g++ HW3P3client.cpp slist.cpp llist.cpp
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ ./a.out
+
+1
+
+2
+in copy test
+Copied List: [ 1 2 3 4 5 6 ]
+finished
+...called the llist Destructor
+-- After copytest --- 
+
+3
+L1: [ 1 2 3 4 5 ]
+
+-- Testing operator overloading ---
+
+4
+
+5
+L1: [ 1 2 3 4 5 ]
+
+6
+
+7
+L2: [ 7 8 9 10 ]
+
+8
+
+9
+L2: [ 1 2 3 4 5 ]
+
+10
+Removed 5 from first list.
+
+11
+L1: [ 1 2 3 4 ]
+
+12
+L2: [ 1 2 3 4 ]
+
+13
+L2: [ 1 2 3 4 5 ]
+...called the llist Destructor
+...called the llist Destructor
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ exit
+exit
+
+Script done on Sun 23 Oct 2016 12:34:11 AM PDT

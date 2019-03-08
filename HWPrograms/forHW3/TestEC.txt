@@ -1,0 +1,38 @@
+Script started on Sun 23 Oct 2016 12:36:21 AM PDT
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ g++ hw3ec.cpp slist.cpp llist.cpp
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ ./a.out
+Case:                                   Result:
+1.L1 is empty and L2 is empty           True
+L1: [ empty ]
+L2: [ empty ]
+
+2.L1 is empty and L2 has 2 elements     False
+L1: [ empty ]
+L2: [ 1 2 ]
+
+3.L1 has 2 elements and L2 is empty     False
+L1: [ 1 2 ]
+L2: [ empty ]
+
+4.L1 has 1,2,3 and L2 has 1,2,3         True
+L1: [ 1 2 3 ]
+L2: [ 1 2 3 ]
+
+5.L1 has 1,2,3 and L2 has 1,2           False
+L1: [ 1 2 3 ]
+L2: [ 1 2 ]
+
+6.L1 has 1,2,3 and L2 has 1,2,3,4       False
+L1: [ 1 2 3 ]
+L2: [ 1 2 3 4 ]
+
+7.L1 has 1,2,3 and L2 has 1,2,4         False
+L1: [ 1 2 3 ]
+L2: [ 1 2 4 ]
+
+...called the llist Destructor
+...called the llist Destructor
+]0;garci390@empress:~/HWPrograms/forHW3[garci390@empress forHW3]$ exit
+exit
+
+Script done on Sun 23 Oct 2016 12:36:31 AM PDT

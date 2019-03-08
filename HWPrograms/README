@@ -1,0 +1,29 @@
+
+cs311 HW Programs
+
+  These files must be used to write your HW programs.
+
+  Always read @@read-me before you begin. 
+
+  .out files are my programs that you can run before you write
+  your own.
+
+
+TO COMPILE:
+g++ <list cpp files only>   
+Never never compile .h files.
+
+TO RUN:
+./a.out
+
+TO RECORD TEST RESULTS:
+script <put a brand new file name here>
+
+compile here
+run here
+
+exit
+
+Download the created file 
+
+

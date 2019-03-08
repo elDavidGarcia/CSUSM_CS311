@@ -1,0 +1,37 @@
+Script started on Wed 21 Sep 2016 03:10:32 PM PDT
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ vstack.hgvstack.h+vstack.h+vstack.h vstack.h[C[C[C[C[C[C[C[C
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ g++ vstack.h[Kcpp vstack[K[K[K[K[KectorClient1.cpp
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 34+
+Result: 7
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 345+*
+Result: 27
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 722+-
+Result: 3
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 34+56++
+Result: 18
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 12+34*45+-+
+Result: 6
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 1234567891234
+Error: Incomplete expression was found
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: +
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 3+
+Error: Not enough numbers
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 3#
+Error: Invalid item entered
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ ./a.out
+Type a postfix expression: 2345+
+Error: Incomplete expression was found
+]0;garci390@empress:~/HWPrograms/forHW1/HW1P2[garci390@empress HW1P2]$ exit
+exit
+
+Script done on Wed 21 Sep 2016 03:12:50 PM PDT
